@@ -1,5 +1,7 @@
 
 
-var title = "hello"
 
-document.getElementById("titl").innerHTML = "Accenture Solve";
+function setButtonClick(elem){
+    console.log(this);
+    elem.style.opacity="1.0";
+}
