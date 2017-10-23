@@ -8,12 +8,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title id="title" >Accenture</title>
+    <title id="titl" >Accenture</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="{{ url_for('static', filename='css/slides.css') }}" rel="stylesheet">
+    <link href="../static/css/slides.css" rel="stylesheet">
 
-    <script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script type="text/javascript" src="../static/js/main.js"></script>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
@@ -22,29 +22,40 @@
 
   </head>
 
-  <body>
+  <body background="../static/images/bg.jpg">
 
-    <!-- Picture -->
     <div style="margin:150px auto; width:800px;" class="demo-card-wide mdl-card mdl-shadow--2dp">
-        <div class="mdl-card__title">
-            <img src="../static/images/wheelchair.png" alt="front-of-office" height="42" width="42">
-        </div>
-            
-        <div class="mdl-card__supporting-text">
-            <p>
-                This company is wheelchair accessible
-            </p>
-        </div>
-        <div class="mdl-card__actions">
-                <div class="our_button" style="padding:8px;">
-                    <img src="../static/images/happy_icon.png" alt="Smiley face" height="100" width="100">
-                    <img src="../static/images/meh_icon.jpg" alt="Meh face" height="100" width="100">
-                    <img src="../static/images/sad_icon.jpg" alt="Sad face" height="100" width="100">
-                </div>
-        </div>
-    </div>
+            <div class="mdl-card__title">
+              <h2 class="mdl-card__title-text">Desk Job</h2>
+            </div>
 
-    <!-- Buttons -->
+            <div class="mdl-card__actions mdl-card--border">
+        
+                <div style="margin: 0 auto;">
+
+                        <div style="float:left;">
+                                <img src="../static/images/smile.png">
+                            </div>
+                            <a style="float:left;margin-top:30px;" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                                Pass
+                            </a>
+                            <div style="float:left;">
+                                <img src="../static/images/sad.png">
+                            </div>
+
+                </div>
+               
+                
+            </div>
+
+           
+            <div class="mdl-card__supporting-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Mauris sagittis pellentesque lacus eleifend lacinia...
+            </div>
+
+    
+          </div>
 
   </body>
 
