@@ -15,12 +15,39 @@
 
     <script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
 
   </head>
 
   <body>
 
-    <h1>Accenture Solve</h1>
+      <div style="margin:150px auto; width:800px;" class="demo-card-wide mdl-card mdl-shadow--2dp">
+          
+          <form action="#">
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="text" id="sample3">
+                <label class="mdl-textfield__label" for="sample3">Name...</label>
+              </div>
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                  <input class="mdl-textfield__input" type="text" id="sample3">
+                  <label class="mdl-textfield__label" for="sample3">Email...</label>
+                </div>
+            </form>
+
+          <div class="mdl-card__supporting-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Mauris sagittis pellentesque lacus eleifend lacinia...
+          </div>
+          <div class="mdl-card__actions mdl-card--border">
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+              Get Started
+            </a>
+          </div>
+    
+        </div>
 
   </body>
 
