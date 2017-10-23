@@ -4,5 +4,10 @@
 .demo-card-wide > .mdl-card__title {
     color: #fff;
     height: 176px;
-    background: url('../images/desk.jpg') center / cover;
+    
   }
+
+
+.faceimg{
+    cursor:pointer;
+}

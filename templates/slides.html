@@ -24,38 +24,36 @@
 
   <body background="../static/images/bg.jpg">
 
-    <div style="margin:150px auto; width:800px;" class="demo-card-wide mdl-card mdl-shadow--2dp">
-            <div class="mdl-card__title">
+    <div id="card1" style="margin:100px auto; width:800px;" class="demo-card-wide mdl-card mdl-shadow--2dp">
+            <div id="imgdesk" class="mdl-card__title" style="height:300px;background: url('../static/images/office1.jpg') center / cover;">
               <h2 class="mdl-card__title-text">Desk Job</h2>
             </div>
 
             <div class="mdl-card__actions mdl-card--border">
         
-                <div style="margin: 0 auto;">
+                <div style="margin: 0 auto; text-align:center;">
 
-                        <div style="float:left;">
-                                <img src="../static/images/smile.png">
-                            </div>
-                            <a style="float:left;margin-top:30px;" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                                Pass
-                            </a>
-                            <div style="float:left;">
-                                <img src="../static/images/sad.png">
-                            </div>
+                <div style="float:left;">
+                        <img class="faceimg" onclick="clickedFace()" src="../static/images/smile.png">
+                    </div>
+                    <a style="float:middle;margin-top:30px;" onclick="clickedFace()" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                        Pass
+                    </a>
+                    <div style="float:right;">
+                        <img class="faceimg" onclick="clickedFace();"" src="../static/images/sad.png">
+                    </div>
 
                 </div>
-               
-                
             </div>
 
-           
             <div class="mdl-card__supporting-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Mauris sagittis pellentesque lacus eleifend lacinia...
+              Select a reaction based on how you feel about the above working environment !!
             </div>
-
     
           </div>
+
+
+         
 
   </body>
 
