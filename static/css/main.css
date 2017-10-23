@@ -1,4 +1,7 @@
 
-h1{
-    color:red;
+.circleimage{
+    padding:8px;
+
+    cursor:pointer;
 }
+
